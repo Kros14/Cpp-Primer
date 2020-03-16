@@ -22,7 +22,7 @@ int main()
 	}
 	return 0;
 }
-
+//1.24使用此页代码实现
 
 /*Warning:
 cnt能够正常计数，而currItem只显示当前赋值的currItem，需要注意。以后可以修改
