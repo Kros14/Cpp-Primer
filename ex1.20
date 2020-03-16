@@ -1,0 +1,12 @@
+#include <iostream>
+#include "Sales_item.h"
+using namespace std;
+int main()
+{
+	for (
+       Sales_item item;
+       cin >> item; 
+       cout << "The record is : "<<item << endl
+       );
+	return 0;
+}
