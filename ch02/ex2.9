@@ -1,0 +1,8 @@
+(a)std::cin>>int input_value;
+  //变量声明需要在标准出入流之前
+(b)int i={3.14};
+  //3.14为double类型，从"double"转换到"int"会丢失数据。VS2019会报错C2397: 从“double”转换到“int”需要收缩转换。改为 int i=(int)3.14；
+(c)double salary=wage=9999.99;
+  //初始化变量不能用=连起来，也不能用“,"，要分别初始化。初始化的变量可以立即使用，e.g.：double salary=9999.9,wage=salary;
+(d)int i=3.14;
+  //warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
