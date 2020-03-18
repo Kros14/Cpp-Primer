@@ -1,0 +1,7 @@
+//说明下列变量的类型和值。
+(a)int *ip,i,&r=i;
+  //int类型的指针ip,变量i，引用r指向i。
+(b)int i,*ip=0;
+  //int类型的变量i，空指针ip。
+(c)int *ip,ip2;
+  //int类型的指针ip未初始化，变量ip2。
