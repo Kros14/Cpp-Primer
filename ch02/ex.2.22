@@ -1,0 +1,7 @@
+//假设p是一个int型指针，请说明下述代码的含义。
+
+if(p)...
+  //p本身是否为非空指针，如果p是nullptr，则转化bool值为false，如果p是非空指针，则转化bool值为true
+  
+if(*p)
+  //将指针p所指的对象的值转化为bool值。如果是0则bool为false，如果是非零值则bool为true
