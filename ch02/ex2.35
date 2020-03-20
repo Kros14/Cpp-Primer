@@ -1,0 +1,7 @@
+//判断下列定义推断出的类型是什么，然后编写程序进行验证。
+
+const int i=42;
+auto j=i; //j是一个int
+const auto &k =i; //k是一个常量引用
+auto *p = &i; //p是一个指向int的指针。
+const auto j2 = i,&k2=i;  //j2是一个const int，k2是一个const int
