@@ -1,0 +1,16 @@
+//ex2.33:利用本节定义的变量，判断下列语句的运行结果。
+int i= 0,&r=i;
+auto a=r;
+const int ci = i,&cr = ci;
+auto b = ci;
+auto c = cr;
+auto d = &i;
+auto e = &ci;
+auto &g =ci;
+
+a=42; //a是一个int
+b=42; //b是一个int auto b忽略了顶层const 
+c=42; //c是一个int
+d=42; //d是一个指向int 的指针，所以非法
+e=42; //e是一个指向const int的指针，所以非法
+g=42; //const int 的引用，引用都是底层const，所以不能被赋值。
