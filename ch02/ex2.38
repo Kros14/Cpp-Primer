@@ -1,0 +1,13 @@
+//说明由decltype指定类型和由auto指定类型有何区别。请举出一个例子，decltype指定的类型与auto指定的类型一样；再举一个例子，decltype指定的类型与auto指定的类型不一样，
+
+//decltype处理顶层const和引用的方式与auto不同，decltype会将顶层const和引用保留起来。
+
+int i=0,&r=i;
+auto a=i;
+decltype(i) b=i;
+
+auto c=r;
+decltype(r) d=r;
+
+//c是一个int变量，用i赋值。
+//d是一个引用，绑定到i上。
