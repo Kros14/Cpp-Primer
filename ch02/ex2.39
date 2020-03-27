@@ -1,0 +1,11 @@
+//编译下面的程序观察其运行结果，注意，如果忘记写类定义提后面的分号会发生什么？
+
+stuct Foo{}
+int ain()
+{
+return 0;
+}
+
+//报错： error C2628: “Foo”后面接“int”是非法的(是否忘记了“;”?)
+// error C3874: “main”的返回类型应为“int”而非“Foo”
+//error C2440: “return”: 无法从“int”转换为“Foo”
