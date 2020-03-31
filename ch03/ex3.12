@@ -1,0 +1,8 @@
+//xialievector对象的定义有不正确的吗？如果有，请指出来。对于正确的，描述其执行结果；对于不正确的，说明其错误的原因。
+
+(a)vector<vector<int>> ivec;
+  //正确。 在C++11中合法
+(b)vector<string> svec=ivec;
+  //错误，赋值类型不同
+(c)vector<string> svec(10, "null");
+  //正确。定义了一个vector对象，初始化值为10个字符串"null"
