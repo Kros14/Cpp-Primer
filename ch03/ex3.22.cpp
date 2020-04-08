@@ -17,7 +17,7 @@ int main()
 			if (isalpha(*it2))
 				*it2 = toupper(*it2);
 	}
-	for (auto it : text)
-		cout << it << endl;
+	for (auto c : text)
+		cout << c << endl;
 	return 0;
 }
