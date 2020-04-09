@@ -1,0 +1,7 @@
+//指出下面代码中的索引错误。
+
+constexpr size_t array_size=10;
+int ia[array_size];
+for(size_t ix=1;ix<=array_size;++ix)  //应该从0开始到小于array_size，ix为10时下标越界。
+  ia[ix]=ix;
+  
