@@ -1,0 +1,3 @@
+//如果 unsigned scores[11]={}; 改写成unsigned scores[11]; 会发生什么?
+
+//scores[11]的元素值会是未定义值。
