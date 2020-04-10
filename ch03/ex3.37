@@ -1,0 +1,11 @@
+//下面的程序是何含义，程序的输出结果是什么？
+
+const char ca[]={'h','e','l','l','o'};
+const char *cp=ca;
+while(*cp)
+{
+  cout<<*cp<<endl;
+  ++cp;
+}
+
+//定义一个c风格字符串ca，从头开始输出ca，直到cp指向空字符，程序一般不会在cp指向ca结尾后停止循环，除非恰好是空字符
